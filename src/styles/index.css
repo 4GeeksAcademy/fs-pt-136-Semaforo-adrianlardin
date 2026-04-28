@@ -1,11 +1,79 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.SoporteSemaforo {
+    background: black;
+    height: 100px;
+    width: 20px;
+    margin: 0 auto;
+} /* tamaño semaforo */
+.semaforo{
+    background: black;
+    height: 500px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* Semaforo apagado */
+.redOff {
+    background: rgb(89, 0, 0);
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.orangeOff {
+    background: rgb(133, 71, 0);
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.greenOff {
+    background: rgb(10, 82, 0);
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.purpleOff {
+    background: rgb(128, 0, 128);
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+/* Luces del semaforo encendidas */
+.redOn {
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.orangeOn {
+    background: orange;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.greenOn {
+    background: rgb(11, 232, 0);
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.purpleOn {
+    background: rgb(160, 32, 240);
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+/* boton púrpura */
+.purpura {
+    background: rgb(160, 32, 240);
+    color: white;
+}
